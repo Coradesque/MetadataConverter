@@ -1,0 +1,23 @@
+.warning {
+    text-align: center;
+    color: white;
+}
+
+.delBtn {
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+}
+
+td {
+    font-size: small;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+.tableFileName {
+    text-align: left;
+}

@@ -1,0 +1,10 @@
+.statusArea {
+    height: calc(58% - 3.5rem);
+    width: calc(100% - 2rem);
+    position: absolute; /* Position inner div relative to the outer div */
+    top: calc(42% - 0.5rem);; /* Offset from top to keep the inner div centered */
+    left: 1rem; /* Offset from left to keep the inner div centered */
+    background-color: #3f464d;
+    overflow-x: auto;
+    overflow-y: auto;
+}

@@ -1,0 +1,50 @@
+.submitArea{
+    height: calc(6rem);
+    width: calc(100% - 2rem);
+    position: absolute; /* Position inner div relative to the outer div */
+    top: calc(100% - 5rem); /* Offset from top to keep the inner div centered */
+    left: 1rem; /* Offset from left to keep the inner div centered */
+}
+
+.submitBtn {
+    width: 10rem;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.infoIcon {
+    position: absolute;
+    font-size: 2rem;
+    color:#0D6EFD;
+    transform: translateY(11px);
+}
+
+.warningIcon {
+    position: absolute;
+    left: 3rem;
+    font-size: 2.5rem;
+    color:#0D6EFD;
+    transform: translateY(4px);
+}
+
+.completeIcon {
+    position: absolute;
+    font-size: 2.3rem;
+    color:#0D6EFD;
+    left: 6.2rem;
+    transform: translateY(6px);
+}
+
+.infoIcon:hover {
+    color:#0B5ED7;
+}
+
+.warningIcon:hover {
+    color:#0B5ED7;
+}
+
+.completeIcon:hover {
+    color:#0B5ED7;
+}

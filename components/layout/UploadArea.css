@@ -1,0 +1,21 @@
+.uploadArea {
+    padding-top: 1rem;
+    height: calc(42% - 2rem);
+    width: calc(100% - 2rem);
+    position: absolute; /* Position inner div relative to the outer div */
+    background-color: #212529;
+    border: 1px solid gray;
+    border-radius: 2px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.filter-white{
+    filter: invert(100%) sepia(0%) saturate(7466%) hue-rotate(83deg) brightness(115%) contrast(104%);
+}
+
+.selectBtn {
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}

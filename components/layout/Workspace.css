@@ -1,0 +1,12 @@
+.wokspace {
+    height: calc(100% - 6rem);
+    max-height: 864px;
+    width: calc(100% - 10rem);
+    max-width: 1536px; 
+    position: absolute; /* Position inner div relative to the outer div */
+    top: 2rem; /* Offset from top to keep the inner div centered */
+    left: 5rem; /* Offset from left to keep the inner div centered */
+    background-color: #343A40;
+    box-shadow: 0px 5px 10px black;
+    padding: 1rem;
+}
